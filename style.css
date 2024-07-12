@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.container{
+
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg);
+    height: 100vh;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.Logo{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    
+}
+.Logo img{
+
+    width: 150px;
+}
+
+.nav{
+    width: 45%;
+    display: flex;
+    list-style: none;
+
+}
+.nav li{
+    padding: 3px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.cards{
+
+    width: 300px;
+    background-color: aqua;
+    height: 300px;
+}
+
+
+.other{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+
+}
+.other a{
+
+    padding: 5px 10px;
+    color: black;
+}
+.car-image1st{
+
+    position: absolute;
+    top: 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.modelAndRate{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    
+}
+
+.modelAndRate h1{
+    font-size: 40px;
+    
+}
+.modelAndRate h4{
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grey{
+
+    color: rgb(59, 59, 59);
+}
+
+
+.buttons{
+    height: 60%;
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.buttons button{
+    padding: 12px 20px;
+    border-radius: 3px;
+    border: none;
+    background: #e2e2e2;
+    width: 300px;
+    color: #343434;
+    font-family: "poppoins", sans-serif;
+    font-weight: 900;
+
+}
+.buttons .black{
+    background-color: #343434;
+    color: rgb(235, 235, 235);
+}
+
+.model-Y{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png);
+    height: 100dvh;
+    background-size: cover;
+}
+
+.model-X{
+
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg);
+    height: 100dvh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.model-S{
+
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg);
+    height: 100dvh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(235, 235, 235);
+}   
+.model-S .grey{
+    color: rgb(235, 235, 235);
+}
+
+.model-Cyber{
+    background-image: url(https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg);
+    height: 100dvh;
+    background-size: cover;
+}
+.model-Cyber .CyberTruck-Text{
+
+    width: 500px;
+}
+.model-Cyber .buttons button{
+
+    margin-top: 200px;
+    padding: 9px;
+    background-color: #00000099;
+    border-radius: 0;
+    color: rgb(153, 153, 153);
+}
+
+#btn1{
+    border-top: 3px solid;
+}
+
+.model-SolarPanel{
+
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop);
+    height: 100dvh;
+    background-size: cover;
+}
+
+hr{
+    width: 100%;
+}
+
+#white{
+    color: rgb(235, 235, 235);
+}
+
+.model-SolarRoof{
+
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global);
+    height: 94dvh;
+    background-size: cover;
+}
+
+.model-Accessories{
+
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg);
+    height: 100dvh;
+    background-size: cover;
+}
+
+footer{
+
+    background-color: black;
+    color: rgb(213, 213, 213);
+    
+}
+
+.copywrite{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.copywrite h5{
+
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer-nav{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13px;
+    font-size: 14px;
+}
+footer p{
+
+    padding: 4px 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
